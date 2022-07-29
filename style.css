@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-image: linear-gradient(rgb(68, 25, 47), rgb(99, 99, 86), rgb(95, 96, 156));
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: rgb(44, 34, 54);
+}
+
+
+.cabecalho-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho-menu-item {
+    font-family: serif;
+    color: cornsilk;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.border {
+    color: aliceblue;
+}
+
+.conteudo {
+    margin-bottom: 50px;
+    border-top: 0, 8px solid #fff2e7;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 60px;
+    color: #fff2e7;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    font-weight: 500;
+    color: lightgray;
+}
+
+
+.conteudo-principal-escrito-botao {
+    background-color: rgb(192, 187, 121);
+    width: 200px;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(12, 17, 12);
+}
+
+.conteudo-principal-escrito-img {
+    border-radius: 10px;
+
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: antiquewhite;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 70px;
+}
+
+.conteudo-secundario-titulo {
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff2e7;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: 500;
+    color: lightgray;
+}
+
+.conteudo-tercero{
+    font-size: 12px;
+    display: flex;
+    flex-direction: initial;
+    align-items: initial;
+    margin: 45px;
+    gap: 15px;
+}
+
+
+.rodape {
+    background-color: rgb(44, 34, 54);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.rodape-titulo {
+    font-family: 'Sarala', sans-serif;
+    color: cornsilk;
+    font-weight: 200;
+    font-size: 15px;
+}
+.rodape-input {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff2e7;
+}
+   
